@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Seção HOME */
+.caixa-mae {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background: #E7E7E7;
+}
+
+.container-left {
+    width: 40%;
+    margin-left: 6rem;
+    margin-bottom: 6rem;
+}
+
+.logo {
+    width: 88px;
+    height: 83px;
+    margin-top: 49px;
+}
+
+h1 {
+    color: #1A2E35;
+    text-align: justify;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+p {
+    color: #000;
+    text-align: justify;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.input-name {
+    margin-bottom: 16px;
+}
+
+.input-name input {
+    width: 535px;
+    height: 60px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.input-email input {
+    width: 535px;
+    height: 60px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+::placeholder {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 23px 0 24px 20px;
+}
+
+.input-email {
+    margin-bottom: 32px;
+}
+
+.btn {
+    width: 396px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF4F5A;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fc6a71;
+}
+
+.img-ilust {
+    width: 650px;
+    height: 751px;
+    flex-shrink: 0;
+    margin-top: 45px;
+    margin-right: 4rem;
+}
+
+/* Seção About */
+
+#caixa-dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+#caixa-dois h1 {
+    color: #1A2E35;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 55px;
+}
+
+#caixa-dois p {
+    color: #000;
+    text-align: justify;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+#caixa-dois #paragraf2 {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.imgs img {
+    width: 370px;
+    height: 360px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+
+
+/* Seção finish */
+
+#caixa-tres {
+    background-color: #FF4F5A;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left2 {
+    width: 40%;
+    margin-left: 6rem;
+}
+
+.left2 img {
+    width: 433px;
+    height: 488px;
+    flex-shrink: 0;
+    margin-top: 69px;
+}
+
+.right2 {
+    margin-left: 52px;
+    margin-right: 50px;
+}
+
+.right2 h1 {
+    color: #FFF;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.right2 p {
+    color: #FFF;
+    text-align: justify;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn2 {
+    width: 413px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #1E1E1E;
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #282828;
+}
+
+
+
+@media screen and (max-width:890px) {
+
+    .caixa-mae {
+        flex-direction: column;
+        height: 120%;
+    }
+
+    .container-left {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 6rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+
+    .logo {
+        width: 64px;
+        height: 60px;
+        margin-top: 0px;
+    }
+
+    .img-ilust {
+        width: 85%;
+        height: 85%;
+        margin-top: 0;
+    }
+
+    h1 {
+        width: 274px;
+        height: 60px;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        width: 274px;
+        height: 79px;
+        font-size: 14px;
+    }
+
+    h2 {
+        width: 274px;
+        height: 26px;
+        font-size: 16px;
+    }
+
+    .input-email input {
+        width: 18rem;
+        height: 45px;
+    }
+
+    .input-name input {
+        width: 18rem;
+        height: 45px;
+    }
+
+    .btn {
+        width: 287px;
+        font-size: 15px;
+    }
+
+
+    .imgs img {
+        display: none;
+    }
+
+    #caixa-dois {
+        min-height: 65vh;
+    }
+
+    #caixa-dois h1 {
+        font-size: 18px;
+        ;
+        width: 217px;
+        height: 37px;
+    }
+
+    #caixa-dois p {
+        width: 274px;
+        height: 101px;
+        font-size: 14px;
+        margin-bottom: 7rem;
+    }
+
+
+
+    #caixa-tres {
+        flex-direction: column;
+
+    }
+
+    .left2 {
+        width: 100%;
+
+    }
+
+    .left2 img {
+        width: 274px;
+        height: 222px;
+        margin-top: 2rem;
+
+    }
+
+    .right2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right2 h1 {
+        font-size: 16px;
+    }
+
+    .right2 p {
+        font-size: 14px;
+    }
+
+    .btn2 {
+        width: 274px;
+        height: 45px;
+        font-size: 1rem;
+        margin-top: 6rem;
+    }
+
+
+
+
+
+}
